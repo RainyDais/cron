@@ -5,15 +5,21 @@
 ------ A libary by RainyDais ------
 
 </div>
+
 <div align="center">
     <img src="docs/div.png" alt="divider"/>
-</div> 
+</div>
+
+<div align="center">
   
-# How it works 
+# How it works
 
 The cron Library provides a simple and efficient way to automate tasks based on specified time intervals.
 
 # How to use
+
+</div>
+
 <div align="left">
 <div align="center">
     <img src="docs/1.png" alt="divider"/>
