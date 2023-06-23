@@ -3,16 +3,18 @@
 # Cron Library
 
 ------ A libary by RainyDais ------
+
+</div>
 <div align="center">
     <img src="docs/div.png" alt="divider"/>
 </div> 
   
-## How it works 
+# How it works 
 
 The cron Library provides a simple and efficient way to automate tasks based on specified time intervals.
 
 # How to use
-
+<div align="left">
 <div align="center">
     <img src="docs/1.png" alt="divider"/>
 </div>
@@ -125,3 +127,4 @@ input("\n   Hello, this is the end of the file!\n\n")
 This will also act as a test to prove `cron.start()` isn't blocking the thread
 It contains newline characters so it doesn't get put on the same line as
 other print messages that will come in from the threaded cron jobs.
+</div>
