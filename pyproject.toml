@@ -1,0 +1,15 @@
+[project]
+name = "RainyDais cron"
+version = "1.2"
+description = "A lightweight Python library to simplify cron job management."
+authors = [
+    {name = "RainyDais", email = "support@rainydais.com"},
+    {name = "kgsensei"}
+]
+requires-python = ">=3.2"
+license = {text = "MIT License"}
+keywords = ["cron", "cron job", "RainyDais", "kgsensei"]
+
+[project.urls]
+Homepage = "https://rainydais.com"
+Repository = "https://github.com/RainyDais/cron.git"
