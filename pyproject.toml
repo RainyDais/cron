@@ -15,8 +15,6 @@ requires-python = ">=3.2"
 license = {text = "MIT"}
 keywords = ["cron", "cron job", "RainyDais", "kgsensei"]
 classifiers=[
-    "Development Status :: 1 - Planning",
-    "License :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3.2",
     "Programming Language :: Python :: 3.3",
