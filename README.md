@@ -4,7 +4,7 @@
 
  ------ A libary by RainyDais ------
 <div align="center">
-  <img src="Div/div.png" alt="simple divider by CPS"/>
+  <img src="Div/div.png" alt="simple divider"/>
 </div> 
 
 <div align="left">
