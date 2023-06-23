@@ -68,12 +68,6 @@ def time_alert_function(seconds):
     print("I run every {0} seconds!".format(seconds))
 ```
 
-Example:
-
-```python
-def alert(seconds):
-    print("Alert's every {111} seconds!".format(seconds))
-```
 
 <div align="center">
     <img src="docs/4.png" alt="divider"/>
