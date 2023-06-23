@@ -4,12 +4,8 @@
 
 ------ A libary by RainyDais ------
 <div align="center">
-    <img src="Div/div.png" alt="divider"/>
+    <img src="docs/div.png" alt="divider"/>
 </div> 
-
-<div align="left">
-
-<div align="center">
   
 ## How it works 
 
@@ -17,10 +13,8 @@ The cron Library provides a simple and efficient way to automate tasks based on 
 
 # How to use
 
-<div align="left">
-
 <div align="center">
-    <img src="Div/1.png" alt="divider"/>
+    <img src="docs/1.png" alt="divider"/>
 </div>
 
 * Import the module to use the cron library
@@ -32,7 +26,7 @@ import cron
 ```
 
 <div align="center">
-    <img src="Div/2.png" alt="divider"/>
+    <img src="docs/2.png" alt="divider"/>
 </div>
 
 * Define a function
@@ -54,7 +48,7 @@ def Hello_Function():
 ```
 
 <div align="center">
-    <img src="Div/3.png" alt="divider"/>
+    <img src="docs/3.png" alt="divider"/>
 </div>
 
 * Define a function that will tell you when it runs, this will be told every `x` seconds
@@ -74,7 +68,7 @@ def alert(seconds):
 ```
 
 <div align="center">
-    <img src="Div/4.png" alt="divider"/>
+    <img src="docs/4.png" alt="divider"/>
 </div>
 
 * Create a function to run every `x` amount of times 
@@ -94,7 +88,7 @@ cron.addJob(time_alert_function, 1, 1)
 Currently the `addJob` parameters are; `function, timeout/cron delay, args` (only 1 supported currently)
 
 <div align="center">
-    <img src="Div/5.png" alt="divider"/>
+    <img src="docs/5.png" alt="divider"/>
 </div>
 
 * How to call your Cron jobs
@@ -117,7 +111,7 @@ Default is False or thread blocking.
 This will start your timer fyunction, that will then execute your cron jobs.
 
 <div align="center">
-    <img src="Div/6.png" alt="divider"/>
+    <img src="docs/6.png" alt="divider"/>
 </div> 
 
 * To prevent your program from ending whilst using `non-thread blocking mode`
