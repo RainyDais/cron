@@ -1,3 +1,4 @@
+import threading
 import time
 
 jobs = []
@@ -18,20 +19,25 @@ def addJob(function, timeout, args = None):
     if(verbose):
         print("Cron Job [ {0}('{1}') ] Registered [Running Every {2}s]".format(function.__name__, args, timeout))
 
-def start():
+def start(doThread = False):
     """
     Start the cron job counter
     This is a thread blocking function
+    :param bool doThread: Should the cron counter run in a thread? Default: False
     """
-    seconds = 1
-    while 1:
+    if doThread:
+        thread = threading.Thread(target = start)
+        thread.start()
+    else:
+        seconds = 1
+        while 1:
 
-        for job in jobs:
-            if seconds % job[1] == 0:
-                if job[2] == None:
-                    job[0]()
-                else:
-                    job[0](job[2])
+            for job in jobs:
+                if seconds % job[1] == 0:
+                    if job[2] == None:
+                        job[0]()
+                    else:
+                        job[0](job[2])
 
-        time.sleep(1)
-        seconds += 1
+            time.sleep(1)
+            seconds += 1
